@@ -12,11 +12,11 @@ require(APP_DIR  .'config/config.php');
 require(ROOT_DIR .'core/model.class.php');
 require(ROOT_DIR .'core/view.class.php');
 require(ROOT_DIR .'core/controller.class.php');
-require(ROOT_DIR .'core/base.php');
+require(ROOT_DIR .'core/bootstrap.php');
 
 // Define base URL
 global $config;
 define('BASE_URL', $config['base_url']);
 
-base();
+bootstrap();
 

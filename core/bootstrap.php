@@ -1,6 +1,6 @@
 <?php
 
-function base()
+function bootstrap()
 {
 	global $config;
     
